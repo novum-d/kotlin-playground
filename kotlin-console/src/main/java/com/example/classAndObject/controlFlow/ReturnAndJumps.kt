@@ -1,4 +1,4 @@
-package com.example.`class`.class_and_object.control_flow
+package com.example.classAndObject.controlFlow
 
 /**
  * Return and Jumps

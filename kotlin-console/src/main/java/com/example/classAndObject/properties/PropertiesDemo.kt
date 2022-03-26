@@ -1,4 +1,4 @@
-package com.example.`class`.class_and_object._properties
+package com.example.classAndObject.properties
 
 class PropertiesDemo {
 }

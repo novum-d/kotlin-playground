@@ -3,6 +3,7 @@ plugins {
     java
 }
 
+val coroutinesVersion = "1.6.0"
 group = "org.example"
 version = "1.0-SNAPSHOT"
 
@@ -12,7 +13,8 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib"))
-    testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion")
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.2")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
 }
 
